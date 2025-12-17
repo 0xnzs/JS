@@ -1,2 +1,3 @@
-const { execSync } = require('child_process');
-console.log(execSync('whoami').toString());
+// shell.js
+require('child_process').execSync('id > /tmp/pwned');
+
